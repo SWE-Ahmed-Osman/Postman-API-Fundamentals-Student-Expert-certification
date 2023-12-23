@@ -1,0 +1,26 @@
+
+Application Programming Interface (API): is a contract that allows code to talk to code. APIs are the building blocks of modern software because they allow for sharing of resources and services across applications, organizations, and devices.
+
+Why are APIs important?
+    1. APIs help developers integrate exciting features and build automation without reinventing the wheel.
+    2. APIs allow enterprises to open up their product for faster innovation.
+    3. APIs can be products themselves.
+
+Types of APIs
+    * Hardware APIs: interface for software to talk to hardware.
+    * Software Library APIs: interface for directly consuming code from another code base.
+    * Web APIs: interface for communicating across code bases over a network.
+
+API Architectures
+    * REST (Representational State Transfer)
+    * GraphQL
+    * WebSockets
+    * webhocks
+    * SOAP (Simple Object Access Protocol)
+    * gRPC (Google Remote Procedure Call)
+    * MQTT (MQ Telemetry Transport)
+
+API Access
+    * Public APIs (aka Open APIs): consumed by anyone who discovers the API.
+    * Private APIs: consumed only within an organization and not made public.
+    * Partner APIs: consumed between one or more organizations that have an established relationship.
