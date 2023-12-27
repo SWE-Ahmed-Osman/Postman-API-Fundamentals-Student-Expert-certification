@@ -1,0 +1,17 @@
+
+Request Method: Indicates the type of operation we are about to perform.
+
+Request URL: Indicates where to make the API call. A request URL has three parts: a protocol (such as http:// or https://), host (location of the server), and path (route on the server). In REST APIs, the path often points to a reference entity. Paths and complete URLs are also sometimes called API endpoints.
+
+Status Codes: Indicators of whether a request failed or succeeded.
+
+2xx Success
+3xx Redirection
+4xx Client error
+5xx Server error
+
+The client is teh agent making a request.
+
+The request is sent over a network to some server.
+
+The server interpreted the request and sent the appropriate response over the network back to the Postman client.
