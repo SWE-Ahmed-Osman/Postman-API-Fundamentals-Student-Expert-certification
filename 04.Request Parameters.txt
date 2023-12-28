@@ -1,0 +1,12 @@
+
+Variables in Postman: Postman allows you to save values as variables to reuse them and easily hide sensitive information like API Keys. We will use a variable to replace our base URL so that we don't have to type that repeatedly. Once a variable is defined, you can access its value using double curly brace syntax.
+
+Initial Value: the value initially set when someone forks or imports your collection. Note that if you share your collection with others, they will see this value.
+
+Current Value: Postman always resolves the variable to this value. This is local to your Postman account, and not public. It is good to keep secrets like API Keys ONLY in this column and not include them in the Initial Value column.
+
+Query parameter: are added to the end of the path. They start with a question mark ?, followed by the key-value pairs in the format: <key>=<value>. If there are multiple query parameters, each is separated by an ampersand &. Sometimes, query parameters are optional and allow you to add filters or extra data to your responses. Sometimes, they are required in order for the server to process your request. APIs are implemented differently to fulfill different needs.
+
+Path variable: is a dynamic section of a path and is often used for IDs and entity names such as usernames. The path variable comes immediately after a slash in the path. Note that some API documentation uses colon syntax to represent a wildcard in the path like /users/:username, while some use curly braces like /users/{username}. They both mean the same thing: that part of the path is dynamic!
+
+You used Postman's path variable helper in the Params tab of the request to add a path variable nicknamed :id to the request URL in a human-friendly way. Postman replaces :id with the value you specify for id in the Path Variable editor.
