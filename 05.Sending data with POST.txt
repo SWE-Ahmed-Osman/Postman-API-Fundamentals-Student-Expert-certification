@@ -6,3 +6,5 @@ There are multiple methods for authorizing a request. Some examples are Basic Au
 APIs that use API Key auth usually allow developers to sign up in a developer portal, where they will receive a random API Key that can be used to authorize their requests to the API. The API Key allows the API to track who is making calls and how often.
 
 Headers: are how we can add metadata about our requests, such as authorization information or specify tha data type we want to receive in a response. This is different than the actual payload data we send in the body of a request, such as our new book information. You can think of headers like the outside of an envelope when you send a letter. The envelope has information about delivering the letter, like proof that you've paid for postage. The actual data "payload" is the letter inside the envelope.
+
+NOTE: I can add Authorization to the Collection
