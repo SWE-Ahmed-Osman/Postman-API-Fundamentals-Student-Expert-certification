@@ -1,0 +1,6 @@
+
+PATCH and PUT return 200 status code.
+
+DELETE return 204 status code.
+
+POST return 201 status code.
